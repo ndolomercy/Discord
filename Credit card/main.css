@@ -4,23 +4,20 @@ body {
 }
 .main {
   width: 100%;
-  background-color: aqua;
+
   height: 90px;
 }
 .navbar {
-  /*background-color: blue;*/
   width: 1230px;
   height: 75px;
   margin: auto;
 }
 .icon {
-  /* background-color: brown;*/
   width: 200px;
   height: 75px;
   float: left;
 }
 .logo {
-  /* background-color: rosybrown;*/
   color: black;
   padding-left: 20px;
   float: left;
@@ -32,31 +29,27 @@ body {
   font-weight: bold;
 }
 .menu {
-  /*background-color: rebeccapurple;*/
   height: 70px;
 }
 ul {
-  /*background-color: magenta;*/
   float: left;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 ul li {
-  /*background-color: gold;*/
   list-style: none;
   margin-left: 20px;
   margin-top: 20px;
 }
 ul.signup {
   margin-left: 350px;
-  /* background-color: red;*/
+
   float: right;
   display: flex;
 }
 
 li.signin {
-  /* background-color: green;*/
   float: right;
 }
 li.getaccount {
@@ -66,50 +59,69 @@ li.getaccount {
   padding: 3px 5px;
 }
 .content {
-  margin: 90px 100px;
-  padding: 7px 7px;
-  background-color: palevioletred;
-  width: 30%;
-  height: 800px;
+  height: auto;
+
+  display: grid;
+  width: 100%;
+
+  justify-content: center;
+  height: 250px;
+  grid-column-gap: 100px;
+  grid-template-columns: auto auto;
 }
-.creditcard {
-  background-color: burlywood;
-  /*margin-top: 10px;*/
-  font-size: 50px;
+.About {
+  padding-top: 50px;
+  border-radius: 4px;
+
+  height: 600px;
+  width: 300px;
 }
-.lorem {
-  background-color: orange;
-}
-.container {
-  background-color: indigo;
-  height: 80px;
-}
-.enterdetails {
-  border-radius: 5px solid black;
+.email {
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  align-items: center;
 }
 
-.freecard {
+button {
+  border-radius: 8px;
+  margin-left: 45px;
   background-color: black;
   color: white;
-  float: right;
-  /*display: flex;
-padding: 5px;*/
+  height: 40px;
   width: 100px;
-  height: 30px;
-  border-radius: 5px;
+  font-size: 10px;
 }
-.cardsinfo {
-  background-color: aqua;
-  height: 100px;
-}
-.cards {
-  background-color: violet;
-}
-.transactions {
-  background-color: orangered;
-}
-.image {
-  background-color: rgb(230, 129, 6);
-  float: right;
+.numbers {
   display: flex;
+  flex-direction: row;
+
+  height: 100px;
+  padding: 15px;
+  width: auto;
+}
+.numbers .cardsdelivered {
+  font-size: 12px;
+  display: flex;
+}
+.numbers .transactions {
+  margin-left: 50px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.delivered {
+  margin-left: 50px;
+}
+
+.image {
+  padding: 10px;
+
+  height: 400px;
+  width: 400px;
 }
